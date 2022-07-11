@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo_white.svg" />
+    <title>Qrispy</title>
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- Header -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow py-4">
+    <a class="navbar-brand" href="#"><img src="img/logo_dark.svg" alt="logo dark"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#reviews">Reviews</a>
+            </li>
+        </ul>
+        <a href="#" class="btn btn-brand">Order Online</a>
+    </div>
+</nav>
+
+<!-- Hero -->
+<div id="carousel" class="carousel slide hero-slider" data-ride="carousel">
+    <div class="carousel-inner">
+        <!-- Slide-1 -->
+        <div class="carousel-item bg-dark vh-100 text-center active slide-1">
+            <div class="container h-100 d-flex align-items-center justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h4 class="text-white">Welcome to Qrispy</h4>
+                        <h1 class="display-1 font-weight-bold py-5 text-white">Char-grilled & favor-filled</h1>
+                        <a href="#" class="btn btn-brand">Make A Reservation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Slide-2 -->
+        <div class="carousel-item bg-dark vh-100 text-center slide-2">
+            <div class="container h-100 d-flex align-items-center justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h4 class="text-white">Welcome to Qrispy</h4>
+                        <h1 class="display-1 font-weight-bold py-5 text-white">Cook it with care</h1>
+                        <a href="#" class="btn btn-brand">Make A Reservation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Slide-3 -->
+        <div class="carousel-item bg-dark vh-100 text-center slide-3">
+            <div class="container h-100 d-flex align-items-center justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h4 class="text-white">Welcome to Qrispy</h4>
+                        <h1 class="display-1 font-weight-bold py-5 text-white">Taste the difference</h1>
+                        <a href="#" class="btn btn-brand">Make A Reservation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+</div>
+
+<!-- About -->
+<section id="about">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-5">
+                <img src="img/about_new.png" alt="about">
+            </div>
+            <div class="col-lg-5">
+                <h1>About us</h1>
+                <div class="divider my-4"></div>
+                <p>Qrispy is housed in a historic building, constructed during the 1880’s, which is on the National
+                    Register of Historic Places. The exposed brick walls give Santé the feel of old-world charm that
+                    is reminiscent of places like Charleston, Savannah, New Orleans, or Paris. Our intimate dining
+                    room is perfect for a romantic dinner or quiet evening for any gathering.
+                </p>
+                <p>Qrispy is named for a toast in French, “À votre santé”, translated to “to your health.” in honor
+                    of Chef Adam’s French heritage.
+                </p>
+                <p>Co-owners Veronica and New York Chef Adam Reed moved to Matthews in 1997 and opened Qrispy in
+                    2001. They are excited to serve the Matthews community and the extended Charlotte area.</p>
+                <a href="#menu" class="btn btn-brand">Our Menu</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Menu -->
+<section id="menu">
+    <div class="container">
+        <h1 class="heading text-center my-5">Our Menu</h1>
+        <ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab"
+                    aria-controls="pills-all" aria-selected="true">All</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-breakfast-tab" data-toggle="pill" href="#pills-breakfast" role="tab"
+                    aria-controls="pills-breakfast" aria-selected="true">Breakfast</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-lunch-tab" data-toggle="pill" href="#pills-lunch" role="tab"
+                    aria-controls="pills-lunch" aria-selected="false">Lunch</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-dinner-tab" data-toggle="pill" href="#pills-dinner" role="tab"
+                    aria-controls="pills-dinner" aria-selected="false">Dinner</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                <div class="row mb-5">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="img/item_1.jpg" alt="">
+                            <div class="menu-item__content p-3">
+                                <div class="row justify-content-between m-2">
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+                                    <span>$30</span>
+                                </div>
+                                <h4 class="my-2">Chicken Lasgna</h4>
+                                <p>This cheesy chicken lasagna with spinach uses a creamy white sauce that's made
+                                    with three kinds of cheese: mozzarella, Parmesan, and ricotta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="img/item_2.jpg" alt="">
+                            <div class="menu-item__content p-3">
+                                <div class="row justify-content-between m-2">
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+                                    <span>$30</span>
+                                </div>
+                                <h4 class="my-2">Chicken Lasgna</h4>
+                                <p>This cheesy chicken lasagna with spinach uses a creamy white sauce that's made
+                                    with three kinds of cheese: mozzarella, Parmesan, and ricotta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="img/item_3.jpg" alt="">
+                            <div class="menu-item__content p-3">
+                                <div class="row justify-content-between m-2">
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+                                    <span>$30</span>
+                                </div>
+                                <h4 class="my-2">Chicken Lasgna</h4>
+                                <p>This cheesy chicken lasagna with spinach uses a creamy white sauce that's made
+                                    with three kinds of cheese: mozzarella, Parmesan, and ricotta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="img/item_4.jpg" alt="">
+                            <div class="menu-item__content p-3">
+                                <div class="row justify-content-between m-2">
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+                                    <span>$30</span>
+                                </div>
+                                <h4 class="my-2">Chicken Lasgna</h4>
+                                <p>This cheesy chicken lasagna with spinach uses a creamy white sauce that's made
+                                    with three kinds of cheese: mozzarella, Parmesan, and ricotta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="img/item_5.jpg" alt="">
+                            <div class="menu-item__content p-3">
+                                <div class="row justify-content-between m-2">
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+                                    <span>$30</span>
+                                </div>
+                                <h4 class="my-2">Chicken Lasgna</h4>
+                                <p>This cheesy chicken lasagna with spinach uses a creamy white sauce that's made
+                                    with three kinds of cheese: mozzarella, Parmesan, and ricotta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="img/item_6.jpg" alt="">
+                            <div class="menu-item__content p-3">
+                                <div class="row justify-content-between m-2">
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+                                    <span>$30</span>
+                                </div>
+                                <h4 class="my-2">Chicken Lasgna</h4>
+                                <p>This cheesy chicken lasagna with spinach uses a creamy white sauce that's made
+                                    with three kinds of cheese: mozzarella, Parmesan, and ricotta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="img/item_7.jpg" alt="">
+                            <div class="menu-item__content p-3">
+                                <div class="row justify-content-between m-2">
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+                                    <span>$30</span>
+                                </div>
+                                <h4 class="my-2">Chicken Lasgna</h4>
+                                <p>This cheesy chicken lasagna with spinach uses a creamy white sauce that's made
+                                    with three kinds of cheese: mozzarella, Parmesan, and ricotta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="img/item_8.jpg" alt="">
+                            <div class="menu-item__content p-3">
+                                <div class="row justify-content-between m-2">
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+                                    <span>$30</span>
+                                </div>
+                                <h4 class="my-2">Chicken Lasgna</h4>
+                                <p>This cheesy chicken lasagna with spinach uses a creamy white sauce that's made
+                                    with three kinds of cheese: mozzarella, Parmesan, and ricotta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="pills-breakfast" role="tabpanel" aria-labelledby="pills-breakfast-tab">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="img/item_3.jpg" alt="">
+                            <div class="menu-item__content p-3">
+                                <div class="row justify-content-between m-2">
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+                                    <span>$30</span>
+                                </div>
+                                <h4 class="my-2">Chicken Lasgna</h4>
+                                <p>This cheesy chicken lasagna with spinach uses a creamy white sauce that's made
+                                    with three kinds of cheese: mozzarella, Parmesan, and ricotta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="img/item_4.jpg" alt="">
+                            <div class="menu-item__content p-3">
+                                <div class="row justify-content-between m-2">
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+                                    <span>$30</span>
+                                </div>
+                                <h4 class="my-2">Chicken Lasgna</h4>
+                                <p>This cheesy chicken lasagna with spinach uses a creamy white sauce that's made
+                                    with three kinds of cheese: mozzarella, Parmesan, and ricotta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show " id="pills-lunch" role="tabpanel" aria-labelledby="pills-lunch-tab">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="img/item_1.jpg" alt="">
+                            <div class="menu-item__content p-3">
+                                <div class="row justify-content-between m-2">
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+                                    <span>$30</span>
+                                </div>
+                                <h4 class="my-2">Chicken Lasgna</h4>
+                                <p>This cheesy chicken lasagna with spinach uses a creamy white sauce that's made
+                                    with three kinds of cheese: mozzarella, Parmesan, and ricotta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="img/item_2.jpg" alt="">
+                            <div class="menu-item__content p-3">
+                                <div class="row justify-content-between m-2">
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+                                    <span>$30</span>
+                                </div>
+                                <h4 class="my-2">Chicken Lasgna</h4>
+                                <p>This cheesy chicken lasagna with spinach uses a creamy white sauce that's made
+                                    with three kinds of cheese: mozzarella, Parmesan, and ricotta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show " id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="img/item_5.jpg" alt="">
+                            <div class="menu-item__content p-3">
+                                <div class="row justify-content-between m-2">
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+                                    <span>$30</span>
+                                </div>
+                                <h4 class="my-2">Chicken Lasgna</h4>
+                                <p>This cheesy chicken lasagna with spinach uses a creamy white sauce that's made
+                                    with three kinds of cheese: mozzarella, Parmesan, and ricotta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="img/item_7.jpg" alt="">
+                            <div class="menu-item__content p-3">
+                                <div class="row justify-content-between m-2">
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+                                    <span>$30</span>
+                                </div>
+                                <h4 class="my-2">Chicken Lasgna</h4>
+                                <p>This cheesy chicken lasagna with spinach uses a creamy white sauce that's made
+                                    with three kinds of cheese: mozzarella, Parmesan, and ricotta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="img/item_6.jpg" alt="">
+                            <div class="menu-item__content p-3">
+                                <div class="row justify-content-between m-2">
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+                                    <span>$30</span>
+                                </div>
+                                <h4 class="my-2">Chicken Lasgna</h4>
+                                <p>This cheesy chicken lasagna with spinach uses a creamy white sauce that's made
+                                    with three kinds of cheese: mozzarella, Parmesan, and ricotta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="menu-item bg-white shadow-on-hover">
+                            <img src="img/item_8.jpg" alt="">
+                            <div class="menu-item__content p-3">
+                                <div class="row justify-content-between m-2">
+                                    <span class="stars">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-half-fill"></i>
+                                    </span>
+                                    <span>$30</span>
+                                </div>
+                                <h4 class="my-2">Chicken Lasgna</h4>
+                                <p>This cheesy chicken lasagna with spinach uses a creamy white sauce that's made
+                                    with three kinds of cheese: mozzarella, Parmesan, and ricotta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features -->
+<section id="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-white text-center">Why Choose Us</h1>
+                <p class="text-white text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-6">
+                <div class="feature">
+                    <div class="feature__icon">
+                        <i class="ri-time-line"></i>
+                    </div>
+                    <h4>Fast Service</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="feature">
+                    <div class="feature__icon">
+                        <i class="ri-user-star-line"></i>
+                    </div>
+                    <h4>Professional Staff</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="feature">
+                    <div class="feature__icon">
+                        <i class="ri-star-line"></i>
+                    </div>
+                    <h4>Highly Rated</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="feature">
+                    <div class="feature__icon">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                    <h4>Heart Healthy</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team -->
+<section id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Meet Our Team</h1>
+                <p class="text-center w-50 mx-auto my-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="team-member p-4 border shadow-on-hover text-center">
+                    <img src="img/team_03.png" alt="">
+                    <div class="team-member__content">
+                        <h4 class="mb-0 mt-2">John Doe</h4>
+                        <p>Owner</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="team-member p-4 border shadow-on-hover text-center">
+                    <img src="img/team_01.png" alt="">
+                    <div class="team-member__content">
+                        <h4 class="mb-0 mt-2">Sam Adams</h4>
+                        <p>Head Chef</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="team-member p-4 border shadow-on-hover text-center">
+                    <img src="img/team_02.png" alt="">
+                    <div class="team-member__content">
+                        <h4 class="mb-0 mt-2">James Smith</h4>
+                        <p>Cuisine Expert</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Reviews -->
+<section id="reviews">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12">
+                <h1 class="text-white text-center">What Our Diners Saying</h1>
+            </div>
+        </div>
+        <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="review bg-white p-5">
+                                <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                                <p class="m-2 text-center">It’s a great experience. The ambiance is very welcoming and
+                                    charming.
+                                    Amazing wines,
+                                    food and service. Staff are extremely knowledgeable and make great recommendations.
+                                </p>
+                                <span class="stars d-block my-2 text-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </span>
+                                <img class="d-block w-100" src="img/avatar_01.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="review bg-white p-5">
+                                <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                                <p class="m-2 text-center">It’s a great experience. The ambiance is very welcoming and
+                                    charming.
+                                    Amazing wines,
+                                    food and service. Staff are extremely knowledgeable and make great recommendations.
+                                </p>
+                                <span class="stars d-block my-2 text-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </span>
+                                <img class="d-block w-100" src="img/avatar_02.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="review bg-white p-5">
+                                <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                                <p class="m-2 text-center">It’s a great experience. The ambiance is very welcoming and
+                                    charming.
+                                    Amazing wines,
+                                    food and service. Staff are extremely knowledgeable and make great recommendations.
+                                </p>
+                                <span class="stars d-block my-2 text-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </span>
+                                <img class="d-block w-100" src="img/avatar_03.jpg" alt="First slide">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Contact Us</h1>
+                <p class="text-center">Online order, make a reservation or any questions. <br>We love to hear from you.
+                </p>
+            </div>
+        </div>
+        <form action="" class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="row g-3">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Full Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="number" class="form-control" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Date/Time">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <textarea name="" id="" cols="30" rows="6" class="form-control"
+                            placeholder="Message"></textarea>
+                    </div>
+                    <a href="#" class="btn btn-brand mx-auto">Submit</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- Insta Posts -->
+<section id="insta-posts">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 p-0">
+                <div class="insta-post">
+                    <img src="img/insta_post01.jpg" alt="">
+                    <a href="#" class="insta-btn">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 p-0">
+                <div class="insta-post">
+                    <img src="img/insta_post02.jpg" alt="">
+                    <a href="#" class="insta-btn">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 p-0">
+                <div class="insta-post">
+                    <img src="img/insta_post03.jpg" alt="">
+                    <a href="#" class="insta-btn">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 p-0">
+                <div class="insta-post">
+                    <img src="img/insta_post04.jpg" alt="">
+                    <a href="#" class="insta-btn">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row text-white">
+            <div class="col-lg-3 p-0">
+                <img src="img/logo_white.svg" class="footer__logo" alt="">
+                <div class="social-icons my-2">
+                    <a href="#"><i class="ri-instagram-fill text-white"></i></a>
+                    <a href="#"><i class="ri-facebook-fill text-white"></i></a>
+                    <a href="#"><i class="ri-twitter-fill text-white"></i></a>
+                </div>
+                <p class="copyright">&copy; 2022. All rights reserved.</p>
+            </div>
+            <div class="col-lg-3 p-0">
+                <h4 class="text-white">QUICK LINKS</h4>
+                <ul>
+                    <li><a href="#" class="text-white">Home</a></li>
+                    <li><a href="#" class="text-white">About</a></li>
+                    <li><a href="#" class="text-white">Menu</a></li>
+                    <li><a href="#" class="text-white">Team</a></li>
+                    <li><a href="#" class="text-white">Reviews</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3  p-0">
+                <h4 class="text-white">CONTACT</h4>
+                <p>(919) 999 8888</p>
+                <p>contact@qrispy.com</p>
+                <p>1600 Pennsylvania Avenue NW, Washington, DC 20500</p>
+            </div>
+            <div class="col-lg-3  p-0">
+                <h4 class="text-white">OPENING HOURS</h4>
+                <p>Mon-Fri: 10:00-21:00</p>
+                <p>Sat-Sun: 10:00-22:00</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
