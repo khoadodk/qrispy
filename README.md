@@ -6,7 +6,7 @@
 
 - [Repo](https://github.com/khoadodk/qrispy 'Repo')
 
-- [Live](<Homepage url> 'Live View')
+- [Live](https://kd-qrispy.netlify.app 'Live View')
 
 - [Bugs](https://github.com/khoadodk/qrispy/issues 'Issues Page')
 
